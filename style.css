@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.esconde {
+  display: none;
+}
+
+* {
+ box-sizing: border-box;
+/* outline: none;*/
+}
+
+body {
+  background-color: #400040;
+  font-family: 'poppinns' , sans-srif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+  
+}
+
+#adicionar {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color:#8000ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  
+}
+
+.nota {
+  background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+  margin: 30px 20px;
+   height: 100px;
+   width: 100px;
+  overflow-y: hidden;
+  
+  
+}
+
+.cabecalho{
+  top: 1rem;
+  right: 1rem;
+  background-color:brown;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  margin: -0px;
+  
+  
+}
+
+.apagar,.editar{
+  background-color:transparent;
+  border: none;
+  color: #0b0b0b;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  
+
+}
+  
+ textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  max-height:100px;
+  max-width:100px;
+ 
+}
+
+
+.futura-nota {
+  padding: 20px;
+}
+
